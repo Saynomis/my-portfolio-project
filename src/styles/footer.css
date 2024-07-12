@@ -1,0 +1,15 @@
+/* Footer styling */
+.footer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    color: #e6edee;
+    bottom: 0;
+  }
+  
+.footer * {
+    margin: 0;
+}  
