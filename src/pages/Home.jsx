@@ -41,16 +41,16 @@ export default function Home() {
             </li>
           </ul>
           <div className="social-icons">
-            <a href="">
+            <a href="https://www.facebook.com/simon.ehrlich.10/">
               <FaFacebookF />
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/simon.ehrlich.10/">
               <FaInstagram />
             </a>
-            <a href="">
+            <a href="https://github.com/Saynomis">
               <FaGithub />
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/simon-ehrlich-993151214/">
               <FaLinkedinIn />
             </a>
           </div>

@@ -9,7 +9,7 @@
   z-index: 1000;
   width: 100%;
   height: 50px;
-  background-color: #242424;
+  background-color: #1f1f1f;
 }
 
 .logo * {
@@ -44,6 +44,8 @@
   font-size: 1.2em;
   color: #e6edee;
   border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 @media (min-width: 0px) {
