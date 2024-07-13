@@ -1,28 +1,29 @@
 .cv-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
 }
 
 .cv {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .download-button {
-    margin-top: 20px;
-    margin-bottom: 35px;
-    font-size: 1.1rem;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 1.1rem;
 
-    background-color: #00d8fe;
-    border: none;
-    border-radius: 6px;
-    padding: 8px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+  background-color: #1f1f1f;
+  border: 2px solid #00d8fe;
+  border-radius: 6px;
+  padding: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 .download-button:hover {
-    cursor: pointer;
+  cursor: pointer;
+  background-color: #00d8fe;
 }
