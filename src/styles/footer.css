@@ -8,6 +8,7 @@
     flex-shrink: 0;
     color: #e6edee;
     bottom: 0;
+    position: static;
   }
   
 .footer * {

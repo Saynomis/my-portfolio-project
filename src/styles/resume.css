@@ -2,11 +2,88 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
-.resume-box {
-  justify-content: center;
+.arrows-resume-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.arrows-resume-container button {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+}
+
+.arrow-active {
+  color: #00d8fe;
+  cursor: pointer;
+}
+
+.arrow-inactive {
+  color:transparent;
+  cursor:default;
+}
+
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutToLeft {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutToRight {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+.page-enter-left {
+  animation: slideInFromLeft 0.5s forwards;
+}
+
+.page-exit-right {
+  animation: slideOutToRight 0.5s forwards;
+}
+
+.page-enter-right {
+  animation: slideInFromRight 0.5s forwards;
+}
+
+.page-exit-left {
+  animation: slideOutToLeft 0.5s forwards;
 }
 
 .btn-container {
@@ -17,14 +94,11 @@
 .btn2-container {
   display: flex;
   justify-content: center;
+  bottom: 0;
 }
 
-button {
-  margin: 10px;
-}
-
-button:hover {
-  cursor: pointer;
+.resume-container button {
+  margin: 20px;
 }
 
 .btn2-container button {
@@ -34,17 +108,10 @@ button:hover {
   background-color: #00d8fe;
   font-size: 1.1rem;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
 .btn2-container button:hover {
   background-color: #1f1f1f;
   border: 2px solid #00d8fe;
+  cursor: pointer;
 }
-
-@media (min-width: 900px) {
-  .resume-box {
-    width: 80%;
-  }
-}
-
