@@ -1,20 +1,26 @@
-import Button from "./Button";
 import "../styles/header.css";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
     <div className="nav-bar-container">
-      <nav className="nav-bar-group">
-        <Button title="Home" />
-        <Button title="About" />
-        <div className="logo">
-          <a href="#">
-            <p>Se</p>
-          </a>
-        </div>
-        <Button title="Projects" />
-        <Button title="Resume" />
-      </nav>
+      <ul>
+        <li className="nav-link">
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li className="nav-link">
+          <NavLink to="/about">About</NavLink>
+        </li>
+        <li className="logo">
+          <a href="/">Se</a>
+        </li>
+        <li className="nav-link">
+          <NavLink to="/projects">Projects</NavLink>
+        </li>
+        <li className="nav-link">
+          <NavLink to="/resume">Resume</NavLink>
+        </li>
+      </ul>
     </div>
   );
 }
