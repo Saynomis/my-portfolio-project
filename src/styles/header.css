@@ -58,6 +58,7 @@
 @media (min-width: 0px) {
   .nav-bar-container ul {
     gap: 0.5rem;
+    padding: 0;
   }
 }
 
