@@ -23,10 +23,10 @@ export default function About() {
           </p>
           <p>
             <span className="super-color">aboutsimon (main) $</span> Hello!{" "}
-            {"I'm"} Simon. {"I'm"} a systems engineer for Google. I studied
-            CompSci at Harvard, I enjoy long walks on the beach, and I believe
-            artificial intelligence will inevitably rule us all one day. You
-            should hire me!
+            {"I'm"} Simon 🙋🏻‍♂️. Beginner in web development focused on frontend
+            React, looking to find a job as a junior frontend developer. In the
+            last six months, I have spent time self-learning by completing
+            courses.
           </p>
         </div>
       </section>
@@ -43,8 +43,14 @@ export default function About() {
           </i>
         </div>
         <div>
-          <p> <span className="super-color">simonehrlich $</span> cd skills/tools</p>
-          <p> <span className="super-color">skills/tools (main) $</span> ls</p>
+          <p>
+            {" "}
+            <span className="super-color">simonehrlich $</span> cd skills/tools
+          </p>
+          <p>
+            {" "}
+            <span className="super-color">skills/tools (main) $</span> ls
+          </p>
           <ul>
             <li>html5</li>
             <li>css3</li>
@@ -69,13 +75,19 @@ export default function About() {
           </i>
         </div>
         <div>
-          <p> <span className="super-color">simonehrlich $</span> cd hobbies/interests</p>
-          <p><span className="super-color">hobbies/interests (main) $</span> ls</p>
+          <p>
+            {" "}
+            <span className="super-color">simonehrlich $</span> cd
+            hobbies/interests
+          </p>
+          <p>
+            <span className="super-color">hobbies/interests (main) $</span> ls
+          </p>
           <ul>
-            <li>movies</li>
-            <li>cooking</li>
-            <li>gaming</li>
-            <li>swimming</li>
+            <li>🍿 movies</li>
+            <li>👨🏼‍🍳 cooking</li>
+            <li>🎮 gaming</li>
+            <li>🏊🏼‍♂️ swimming</li>
           </ul>
         </div>
       </section>

@@ -8,6 +8,8 @@
 .arrows-resume-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .arrows-resume-container button {
@@ -114,4 +116,30 @@
   background-color: #1f1f1f;
   border: 2px solid #00d8fe;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .arrows-resume-container {
+    flex-direction: column;
+  }
+
+  .arrow-active, .arrow-inactive {
+    margin: 10px 0;
+  }
+
+  .resume-container {
+    padding: 10px;
+    width: 400px;
+  }
+
+  .btn2-container button {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .arrow-active, .arrow-inactive {
+    font-size: 20px;
+  }
 }

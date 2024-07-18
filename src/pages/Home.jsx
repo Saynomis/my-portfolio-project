@@ -25,11 +25,11 @@ export default function Home() {
           <ul className="list">
             <li className="list-element">
               {" "}
-              <span className="list-icons">🫖</span>fueled by tea
+              <span className="list-icons">🥛</span>fueled by Water
             </li>
             <li className="list-element">
               {" "}
-              <span className="list-icons">🌍</span>based in EU
+              <span className="list-icons">🌍</span>based in Prague CZ/ Prešov SK
             </li>
             <li className="list-element">
               {" "}
