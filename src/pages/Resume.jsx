@@ -79,20 +79,8 @@ export default function Resume() {
           >
             <Page
               pageNumber={pageNumber}
-              width={
-                window.innerWidth <= "768"
-                  ? width < 768
-                    ? 0.8 * width
-                    : 0.6 * width
-                  : null
-              }
-              height={
-                window.innerHeight <= "768"
-                  ? width < 768
-                    ? 0.8 * height
-                    : 0.6 * height
-                  : null
-              }
+              width={width <= "768" ? 0.8 * width : null}
+              height={height <= "768" ? 0.8 * height : null}
             />
           </Document>
         </div>
