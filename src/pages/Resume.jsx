@@ -52,7 +52,7 @@ export default function Resume() {
 
   function handleDownload() {
     const link = document.createElement("a");
-    link.href = "/Resume.pdf";
+    link.href = "../assets/Resume.pdf";
     link.download = "Simon-Ehrlich-Resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -74,7 +74,7 @@ export default function Resume() {
         <div className="document-container">
           <Document
             className={`page-flip ${animationClass}`}
-            file="/Resume.pdf"
+            file="../assets/Resume.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
           >
             <Page
