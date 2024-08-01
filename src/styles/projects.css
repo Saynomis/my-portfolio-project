@@ -80,12 +80,21 @@
         width: 500px;
         padding: 0;
     }
+
+    .text-container h1 {
+        font-size: 1.3rem;
+    }
   
     .text-container p{
       width: 300px;
+      font-size: 1rem;
     }
   
     .image-container img {
       width: 500px;
+    }
+
+    .btn-container {
+        margin-top: 20px;
     }
   }
