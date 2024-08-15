@@ -12,7 +12,7 @@ export default function Header() {
           <NavLink to="/about">About</NavLink>
         </li>
         <li className="logo">
-          <a href="/">Se</a>
+          <a href="#">Se</a>
         </li>
         <li className="nav-link">
           <NavLink to="/projects">Projects</NavLink>
