@@ -25,11 +25,11 @@ export default function Home() {
           <ul className="list">
             <li className="list-element">
               {" "}
-              <span className="list-icons">🥛</span>fueled by Water
+              <span className="list-icons">☕️</span>fueled by Caffe
             </li>
             <li className="list-element">
               {" "}
-              <span className="list-icons">🌍</span>based in Prague CZ/ Prešov SK
+              <span className="list-icons">🌍</span>based in Prešov Slovakia
             </li>
             <li className="list-element">
               {" "}
@@ -44,7 +44,7 @@ export default function Home() {
             <a href="https://www.facebook.com/simon.ehrlich.10/">
               <FaFacebookF />
             </a>
-            <a href="https://www.facebook.com/simon.ehrlich.10/">
+            <a href="https://www.instagram.com/sayme_3/">
               <FaInstagram />
             </a>
             <a href="https://github.com/Saynomis">

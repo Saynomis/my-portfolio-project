@@ -23,7 +23,7 @@ export default function About() {
           </p>
           <p>
             <span className="super-color">aboutsimon (main) $</span> Hello!{" "}
-            {"I'm"} Simon 🙋🏻‍♂️. Beginner in web development focused on frontend
+            {"I'm"} Simon 🙋🏻‍♂️. Junior in web development focused on frontend
             React, looking to find a job as a junior frontend developer. In the
             last six months, I have spent time self-learning by completing
             courses.
