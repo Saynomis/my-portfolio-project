@@ -77,6 +77,41 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      <div className="container">
+        <div className="text-container">
+          <h1>Couple Finance Calculator</h1>
+          <p>
+            The Couple Finance Calculator app is designed to help couples manage
+            their finance expenses efficiently and effectively. The app provides
+            a user-friendly interface and a variety of features to ensure users
+            can add price which they payed and calculate who ows who money.
+          </p>
+          <div className="btn-container">
+            <button
+              onClick={() =>
+                handleClick("https://saynomis.github.io/finance-calculator/")
+              }
+              className="btn"
+            >
+              Preview
+            </button>
+            <button
+              onClick={() =>
+                handleClick(
+                  "https://github.com/Saynomis/finance-calculator/blob/main/src/App.jsx"
+                )
+              }
+              className="btn"
+            >
+              Code <FaCode />
+            </button>
+          </div>
+        </div>
+        <div className="image-container">
+          <img className="ntb" src="PC-cfc.png" alt="Notebook Preview" />
+          <img className="phone" src="phone-cfc.png" alt="Phone Preview" />
+        </div>
+      </div>
     </>
   );
 }
