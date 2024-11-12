@@ -14,6 +14,8 @@
   background-color: rgb(54, 49, 68);
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .block-container li {

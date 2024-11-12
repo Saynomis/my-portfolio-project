@@ -42,12 +42,13 @@ export default function Projects() {
           <img className="phone" src="phone-preview.png" alt="Phone Preview" />
         </div>
       </div>
+      <div className="horizontal-line"><hr /></div>
       <div className="container white">
         <div className="image-container">
           <img className="ntb" src="ntb-prev.png" alt="Notebook Preview" />
           <img className="phone" src="phone-prev.png" alt="Phone Preview" />
         </div>
-        <div className="text-container">
+        <div className="text-container-right">
           <h1>Movie Picker</h1>
           <p>
             The Movie Picker app is designed to help users find there favorite
@@ -77,6 +78,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      <div className="horizontal-line margin"><hr /></div>
       <div className="container">
         <div className="text-container">
           <h1>Couple Finance Calculator</h1>

@@ -32,10 +32,38 @@
   width: 500px;
 }
 
+.text-container-right p {
+  font-size: 1.2rem;
+  width: 500px;
+}
+
+.text-container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  max-width: 60%;
+  padding-left: 80px;
+  padding-left: 0px;
+}
+
 .btn-container {
   display: flex;
   flex-direction: row;
   gap: 2rem;
+}
+
+.horizontal-line {
+  width: 80%;
+  height: 2px;
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin {
+  margin-top: 40px;
 }
 
 .btn {
